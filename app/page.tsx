@@ -16,7 +16,7 @@ function Home() {
         <div className="flex flex-col-reverse sm:flex-row sm:justify-between">
           <div className="w-full sm:mt-8 sm:w-5/6">
             <span className="my-4 text-3xl sm:text-3xl font-bold">
-              👋 Hi! I'm&nbsp;
+              👋 Hi! I&apos;m&nbsp;
               <span className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black">
                 Achal Pathak
               </span>
@@ -33,7 +33,7 @@ function Home() {
 
             <blockquote className=" italic font-semibold text-gray-900 dark:text-white">
               <p>
-                "What I cannot create, I do not understand" - Richard Feynman
+                &ldquo;What I cannot create, I do not understand&rdquo; - Richard Feynman
               </p>
             </blockquote>
 
