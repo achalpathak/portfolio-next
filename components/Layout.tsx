@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 
 
 
-const Layout = ({ children }) => {
+const Layout = ({ children }: {children: React.ReactNode}) => {
   return (
     <div className="container max-w-5xl mx-auto">
       <Header />
