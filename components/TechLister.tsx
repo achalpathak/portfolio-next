@@ -1,4 +1,3 @@
-import TechStackData from "@/config/techStack.json";
 import Image from "next/image";
 import React from "react";
 
@@ -7,17 +6,13 @@ interface TechItem {
   icon_path: string;
 }
 
-interface TechStack {
-  [key: string]: TechItem[];
-}
-const TechStack: TechStack = TechStackData;
 
 function TechLister({
   sectionName,
   sectionData,
 }: {
   sectionName: string;
-  sectionData: Array<{ [key: string]: any }>;
+  sectionData: TechItem[];
 }) {
   return (
     <div>
